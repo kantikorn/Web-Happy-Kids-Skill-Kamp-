@@ -1,0 +1,73 @@
+.product-card-title>a {
+    color: #222;
+}
+
+.font-weight-semibold {
+    font-weight: 600 !important;
+}
+
+.product-card-title {
+    display: block;
+    margin-bottom: .75rem;
+    padding-bottom: .875rem;
+    border-bottom: 1px dashed #e2e2e2;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.text-muted {
+    color: #888 !important;
+}
+
+.bg-secondary {
+    background-color: #f7f7f7 !important;
+}
+
+.accordion .accordion-heading {
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.font-weight-semibold {
+    font-weight: 600 !important;
+}
+.modal-dialog{
+    height: 50%;
+    width: 50%;
+    margin:auto;
+}
+
+
+.modal-header{
+    color: white;
+    background-color: #007bff;
+}
+
+textarea{ border: none; 
+    box-shadow: none !important;
+    
+    outline:0px !important;
+}
+
+.openmodal{
+    margin-left: 35%;
+    width: 25%;
+    margin-top: 25%;
+}
+
+.icon1{
+   color: #007bff;
+
+}
+
+a{
+    margin: auto;
+}
+
+input{
+    color: #007bff;
+    
+
+}
+
+

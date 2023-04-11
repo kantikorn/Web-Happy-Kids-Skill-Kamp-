@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Happy Kids</title>
+    <link rel="stylesheet" href="css-login.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <script src="js/bootstrap.min.js"></script>
+    <div class="wrapper">
+        <div class="logo">
+            <img src="images/loginbanner.jpg" alt="">
+        </div>
+        <div class="text-center mt-4 name">
+           Welcome Login 
+        </div>
+        <form action="systems/ac_login.php" method="post" class="p-3 mt-3">
+            <div class="form-field d-flex align-items-center">
+                <span class="far fa-user"></span>
+                <input type="text" name="email" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-field d-flex align-items-center">
+                <span class="fas fa-key"></span>
+                <input type="password" name="password" id="pwd" placeholder="Enter your password">
+            </div>
+            <button class="btn btn-primary">Login</button>
+        </form>
+        <div class="text-center fs-6">
+            <p class="text-dark">Don't have an account <a href="Register.html">Sign up</a> now</p>
+        </div>
+    </div>
+</body>
+</html>
